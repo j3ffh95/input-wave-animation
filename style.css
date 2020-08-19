@@ -31,7 +31,8 @@ body {
   transition: 0.1s ease-in;
 }
 
-.form-control input:focus {
+.form-control input:focus,
+.form-control input:valid {
   border-bottom-color: darksalmon;
   outline: none;
 }
@@ -41,4 +42,10 @@ body {
   position: absolute;
   top: 15px;
   left: 0;
+}
+
+.form-control input:focus + label,
+.form-control input:valid + label {
+  color: darksalmon;
+  transform: translateY(-30px);
 }
