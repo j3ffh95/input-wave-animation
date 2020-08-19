@@ -28,4 +28,10 @@ body {
   font-family: inherit;
   padding: 15px 0;
   width: 100%;
+  transition: 0.1s ease-in;
+}
+
+.form-control input:focus {
+  border-bottom-color: darksalmon;
+  outline: none;
 }
