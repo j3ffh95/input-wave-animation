@@ -35,3 +35,10 @@ body {
   border-bottom-color: darksalmon;
   outline: none;
 }
+
+.form-control label {
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
